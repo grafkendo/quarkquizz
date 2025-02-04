@@ -1,0 +1,254 @@
+{
+    "questions": [
+        {
+            "question": "What is the charge of a proton?",
+            "options": ["+1", "-1", "0", "+2"],
+            "correct": 0
+        },
+        {
+            "question": "What is the relative mass of a proton?",
+            "options": ["1 atomic mass unit", "0 atomic mass unit", "1/1836 atomic mass unit", "2 atomic mass units"],
+            "correct": 0
+        },
+        {
+            "question": "What is the charge of a neutron?",
+            "options": ["+1", "-1", "0", "+2"],
+            "correct": 2
+        },
+        {
+            "question": "What is the relative mass of a neutron compared to a proton?",
+            "options": ["Slightly more", "Exactly the same", "Much less", "Twice as much"],
+            "correct": 0
+        },
+        {
+            "question": "What is the charge of an electron?",
+            "options": ["+1", "-1", "0", "+2"],
+            "correct": 1
+        },
+        {
+            "question": "What is the relative mass of an electron?",
+            "options": ["1 atomic mass unit", "1/1836 atomic mass unit", "0 atomic mass unit", "2 atomic mass units"],
+            "correct": 1
+        },
+        {
+            "question": "Where are protons located in an atom?",
+            "options": ["In the nucleus", "In electron shells", "Between atoms", "In the electron cloud"],
+            "correct": 0
+        },
+        {
+            "question": "Which particle is responsible for chemical bonding?",
+            "options": ["Protons", "Neutrons", "Electrons", "All of them"],
+            "correct": 2
+        },
+        {
+            "question": "What is the main function of neutrons in the nucleus?",
+            "options": ["Provide electrical charge", "Conduct electricity", "Provide stability to the nucleus", "Create chemical bonds"],
+            "correct": 2
+        },
+        {
+            "question": "What happens to the atomic number when you add a neutron to an atom?",
+            "options": ["Increases by 1", "Decreases by 1", "Stays the same", "Doubles"],
+            "correct": 2
+        },
+        {
+            "question": "What particles make up a proton?",
+            "options": ["2 up quarks and 1 down quark", "2 down quarks and 1 up quark", "3 up quarks", "3 down quarks"],
+            "correct": 0
+        },
+        {
+            "question": "What is the charge of an up quark?",
+            "options": ["+2/3", "-1/3", "+1", "-1"],
+            "correct": 0
+        },
+        {
+            "question": "What is the charge of a down quark?",
+            "options": ["+2/3", "-1/3", "+1", "-1"],
+            "correct": 1
+        },
+        {
+            "question": "What particles make up a neutron?",
+            "options": ["2 up quarks and 1 down quark", "2 down quarks and 1 up quark", "3 up quarks", "3 down quarks"],
+            "correct": 1
+        },
+        {
+            "question": "How many quarks are in a proton?",
+            "options": ["Two", "Three", "Four", "Six"],
+            "correct": 1
+        },
+        {
+            "question": "Which force holds quarks together?",
+            "options": ["Electromagnetic force", "Weak nuclear force", "Strong nuclear force", "Gravitational force"],
+            "correct": 2
+        },
+        {
+            "question": "What is a meson composed of?",
+            "options": ["Three quarks", "A quark and an antiquark", "Two leptons", "Three gluons"],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is NOT a property of quarks?",
+            "options": ["Color charge", "Electric charge", "Spin", "Perfect spherical shape"],
+            "correct": 3
+        },
+        {
+            "question": "Can a quark exist by itself?",
+            "options": ["Yes, easily", "No, due to quark confinement", "Only at high temperatures", "Only if it's an up quark"],
+            "correct": 1
+        },
+        {
+            "question": "What is the antimatter counterpart of a quark called?",
+            "options": ["Antiquark", "Antiquark", "Antiparticle", "Antihadron"],
+            "correct": 1
+        },
+        {
+            "question": "What are the two main categories of fermions?",
+            "options": ["Quarks and leptons", "Protons and neutrons", "Hadrons and mesons", "Bosons and gluons"],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is a lepton?",
+            "options": ["Proton", "Neutron", "Electron", "Gluon"],
+            "correct": 2
+        },
+        {
+            "question": "How many types of leptons are there?",
+            "options": ["4", "6", "8", "10"],
+            "correct": 1
+        },
+        {
+            "question": "What are the three generations of leptons?",
+            "options": [
+                "Electron, muon, tau and their neutrinos",
+                "Up, charm, top and their partners",
+                "Proton, neutron, electron",
+                "Alpha, beta, gamma particles"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the antimatter counterpart of an electron called?",
+            "options": ["Positron", "Antielectron", "Negatron", "Electronite"],
+            "correct": 0
+        },
+        {
+            "question": "Which particle carries the electromagnetic force?",
+            "options": ["Gluon", "Photon", "W boson", "Z boson"],
+            "correct": 1
+        },
+        {
+            "question": "What particles carry the strong nuclear force?",
+            "options": ["Photons", "W and Z bosons", "Gluons", "Gravitons"],
+            "correct": 2
+        },
+        {
+            "question": "Which particles carry the weak nuclear force?",
+            "options": ["Photons", "W and Z bosons", "Gluons", "Gravitons"],
+            "correct": 1
+        },
+        {
+            "question": "What is the difference between a hadron and a lepton?",
+            "options": [
+                "Hadrons experience strong force, leptons don't",
+                "Hadrons have no mass, leptons do",
+                "Hadrons are composite, leptons are elementary",
+                "Hadrons have no charge, leptons do"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is special about neutrinos?",
+            "options": [
+                "They have no electric charge and very little mass",
+                "They are the heaviest particles",
+                "They carry the strong force",
+                "They make up protons"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which lepton is the heaviest?",
+            "options": ["Electron", "Muon", "Tau", "Electron neutrino"],
+            "correct": 2
+        },
+        {
+            "question": "What is the Higgs boson responsible for?",
+            "options": [
+                "Giving particles their mass",
+                "Carrying the electromagnetic force",
+                "Creating antimatter",
+                "Splitting atoms"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is a baryon?",
+            "options": [
+                "A particle made of three quarks",
+                "A type of force-carrying particle",
+                "A particle made of two quarks",
+                "A type of lepton"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is NOT a type of neutrino?",
+            "options": ["Electron neutrino", "Muon neutrino", "Tau neutrino", "Delta neutrino"],
+            "correct": 3
+        },
+        {
+            "question": "What is the main difference between bosons and fermions?",
+            "options": [
+                "Their spin values",
+                "Their mass",
+                "Their charge",
+                "Their color"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which particle was predicted by Paul Dirac and discovered by Carl Anderson?",
+            "options": ["Positron", "Neutrino", "Muon", "Tau"],
+            "correct": 0
+        },
+        {
+            "question": "What is the approximate mass of a muon compared to an electron?",
+            "options": ["207 times heavier", "107 times heavier", "307 times heavier", "407 times heavier"],
+            "correct": 0
+        },
+        {
+            "question": "Which force-carrying particle is still theoretical and undetected?",
+            "options": ["Photon", "Gluon", "W boson", "Graviton"],
+            "correct": 3
+        },
+        {
+            "question": "What is the Standard Model?",
+            "options": [
+                "A theory describing fundamental particles and forces",
+                "A model of the solar system",
+                "A theory of gravity",
+                "A model of atomic structure"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What happens during beta decay?",
+            "options": [
+                "A neutron changes into a proton, electron, and antineutrino",
+                "A proton changes into a neutron",
+                "An electron changes into a neutrino",
+                "A quark changes into a lepton"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which particle interaction is mediated by the W and Z bosons?",
+            "options": [
+                "Weak interaction",
+                "Strong interaction",
+                "Electromagnetic interaction",
+                "Gravitational interaction"
+            ],
+            "correct": 0
+        }
+    ]
+}
