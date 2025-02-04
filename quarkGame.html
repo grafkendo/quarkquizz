@@ -6,15 +6,29 @@
     <title>Physics Subatomic Model Quiz</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .quiz-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
         .particle-diagram {
-            max-width: 800px;
-            margin: 20px auto;
+            flex: 1;
+            min-width: 300px;
+            margin: 20px 0;
             background: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         
+        .quiz-section {
+            flex: 1;
+            min-width: 300px;
+        }
+
         .diagram-title {
             text-align: center;
             color: #333;
@@ -78,11 +92,17 @@
 
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f5f5f5;
         }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
         .question-container {
             background-color: white;
             padding: 20px;
@@ -126,60 +146,75 @@
             background-color: #f2dede;
             color: #a94442;
         }
+
+        @media (max-width: 800px) {
+            .quiz-container {
+                flex-direction: column;
+            }
+            
+            .particle-diagram, .quiz-section {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Physics Subatomic Model Quiz</h1>
     
-    <div class="particle-diagram">
-        <h2 class="diagram-title">Standard Model of Particle Physics</h2>
-        <div class="particle-grid">
-            <div class="generation-label">First Generation</div>
-            <div class="particle-box quark">Up<br>Quark<br>+⅔</div>
-            <div class="particle-box quark">Down<br>Quark<br>-⅓</div>
-            <div class="particle-box lepton">Electron<br>-1</div>
-            <div class="particle-box lepton">Electron<br>Neutrino<br>0</div>
+    <div class="quiz-container">
+        <div class="particle-diagram">
+            <h2 class="diagram-title">Standard Model of Particle Physics</h2>
+            <div class="particle-grid">
+                <div class="generation-label">First Generation</div>
+                <div class="particle-box quark">Up<br>Quark<br>+⅔</div>
+                <div class="particle-box quark">Down<br>Quark<br>-⅓</div>
+                <div class="particle-box lepton">Electron<br>-1</div>
+                <div class="particle-box lepton">Electron<br>Neutrino<br>0</div>
+                
+                <div class="generation-label">Second Generation</div>
+                <div class="particle-box quark">Charm<br>Quark<br>+⅔</div>
+                <div class="particle-box quark">Strange<br>Quark<br>-⅓</div>
+                <div class="particle-box lepton">Muon<br>-1</div>
+                <div class="particle-box lepton">Muon<br>Neutrino<br>0</div>
+                
+                <div class="generation-label">Third Generation</div>
+                <div class="particle-box quark">Top<br>Quark<br>+⅔</div>
+                <div class="particle-box quark">Bottom<br>Quark<br>-⅓</div>
+                <div class="particle-box lepton">Tau<br>-1</div>
+                <div class="particle-box lepton">Tau<br>Neutrino<br>0</div>
+                
+                <div class="generation-label">Force Carriers (Bosons)</div>
+                <div class="particle-box boson">Photon<br>γ</div>
+                <div class="particle-box boson">Gluon<br>g</div>
+                <div class="particle-box boson">W/Z<br>Bosons</div>
+                <div class="particle-box boson">Higgs<br>Boson</div>
+            </div>
             
-            <div class="generation-label">Second Generation</div>
-            <div class="particle-box quark">Charm<br>Quark<br>+⅔</div>
-            <div class="particle-box quark">Strange<br>Quark<br>-⅓</div>
-            <div class="particle-box lepton">Muon<br>-1</div>
-            <div class="particle-box lepton">Muon<br>Neutrino<br>0</div>
-            
-            <div class="generation-label">Third Generation</div>
-            <div class="particle-box quark">Top<br>Quark<br>+⅔</div>
-            <div class="particle-box quark">Bottom<br>Quark<br>-⅓</div>
-            <div class="particle-box lepton">Tau<br>-1</div>
-            <div class="particle-box lepton">Tau<br>Neutrino<br>0</div>
-            
-            <div class="generation-label">Force Carriers (Bosons)</div>
-            <div class="particle-box boson">Photon<br>γ</div>
-            <div class="particle-box boson">Gluon<br>g</div>
-            <div class="particle-box boson">W/Z<br>Bosons</div>
-            <div class="particle-box boson">Higgs<br>Boson</div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #FF6B6B;"></div>
+                    <span>Quarks</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #4ECDC4;"></div>
+                    <span>Leptons</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #96C93D;"></div>
+                    <span>Bosons</span>
+                </div>
+            </div>
         </div>
-        
-        <div class="legend">
-            <div class="legend-item">
-                <div class="legend-color" style="background: #FF6B6B;"></div>
-                <span>Quarks</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background: #4ECDC4;"></div>
-                <span>Leptons</span>
-            </div>
-            <div class="legend-item">
-                <div class="legend-color" style="background: #96C93D;"></div>
-                <span>Bosons</span>
-            </div>
-        </div>
-    </div>
 
-    <div class="question-container">
-        <div id="question"></div>
-        <div class="options" id="options"></div>
-        <div id="result"></div>
-        <button id="next-button" onclick="nextQuestion()" style="display: none;">Next Question</button>
+        <div class="quiz-section">
+            <div class="question-container">
+                <div id="question"></div>
+                <div class="options" id="options"></div>
+                <div id="result"></div>
+                <button id="next-button" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            </div>
+        </div>
     </div>
 
     <script>
